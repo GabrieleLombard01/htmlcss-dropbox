@@ -41,8 +41,13 @@ a{
     background-color: rgb(203, 203, 203);
 }
 /*Utilties*/
-
-.first_conteiner{
+.conteiner{
+    max-width: 1250px;
+    border: dashed red 1px;
+    border-style: inset;
+    margin: 0 auto;
+}
+.first_conteined{
     background-color: #b4d0e7;
     min-height: 820px;
     margin-top: 80px;
@@ -85,15 +90,20 @@ a{
     background-color: rgb(217, 217, 217);
     font-size: 45px;
     font-weight: 700;
+    
+}
+#subtitle{
+    display: flex;
+    flex-direction: row;
 }
 .main_section{
     min-height: 470px;
-    max-width: 430px;
+    min-width: 430px;
     background-color: rgb(224, 224, 224);
 }
 .main_figure{
     min-height: 470px;
-    max-width: 820px;
+    min-width: 820px;
     background-color: rgb(112, 112, 112);
 }
 
