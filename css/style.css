@@ -28,9 +28,12 @@ body{
 /*Generics*/
 header{
     min-height: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+    position: fixed;
+    top: 0;
     /*to be removed*/
     background-color: rgb(209, 234, 255);
 }
