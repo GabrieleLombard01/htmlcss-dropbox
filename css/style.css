@@ -24,6 +24,17 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /*Custom properties*/
+.head_button:hover{
+    background-color: #2d7af7;
+}
+.bghov:hover{
+    color: black;
+    background-color: rgb(226, 226, 226);
+}
+.check_section:active{
+    border: solid #0061ff 5px;
+    border-radius: 50%;
+}
 
 /*Generics*/
 header{
@@ -40,17 +51,26 @@ header{
 a{
     text-decoration: none;
 }
+h2{
+    font-size: 41px;
+}
 p{
     font-size: 18px;
     padding: 20px 20px 35px 2px;
 }
 /*Utilties*/
-
 .first_conteined{
     background-color: #b4d0e7;
     min-height: 740px;
     margin-top: 80px;
     z-index: 999;
+}
+.second_conteiner{
+    margin: 0 auto;
+    margin-top: 160px;
+    width: 1000px;
+    height: 1500px;
+    border: solid black 1px;
 }
 .text_center{
     display: flex;
@@ -119,5 +139,31 @@ p{
     left: -32px;
     top: 20px;
 }
+/*Section 1*/
+#padding_first_section{
+    padding-bottom: 50px;
+}
+.checks{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.flexcheck{
+    display: flex;
+}
+.check_section{
+    border: solid #d0d0d3 2px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+.check_text{
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 2px;
+    display: inline-block;
 
+}
 
