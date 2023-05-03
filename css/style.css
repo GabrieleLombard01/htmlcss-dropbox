@@ -40,6 +40,11 @@ header{
 a{
     background-color: rgb(203, 203, 203);
 }
+p{
+    font-size: 18px;
+    padding: 20px 20px 20px 2px;
+    
+}
 /*Utilties*/
 .conteiner{
     max-width: 1250px;
