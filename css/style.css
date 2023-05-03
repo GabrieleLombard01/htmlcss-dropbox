@@ -42,6 +42,18 @@ a{
 }
 /*Utilties*/
 
+.first_conteiner{
+    background-color: #b4d0e7;
+    min-height: 820px;
+    margin-top: 80px;
+}
+.text_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*Navigation bar*/
 .head_section{
     background-color: rgb(251, 251, 182);
@@ -65,6 +77,24 @@ a{
     padding: 8px 15px 8px 15px; 
     text-decoration: solid;
 }
-
+/*Main*/
+.title{
+    max-width: 1250px;
+    min-height: 350px;
+    margin: 0 auto;
+    background-color: rgb(217, 217, 217);
+    font-size: 45px;
+    font-weight: 700;
+}
+.main_section{
+    min-height: 470px;
+    max-width: 430px;
+    background-color: rgb(224, 224, 224);
+}
+.main_figure{
+    min-height: 470px;
+    max-width: 820px;
+    background-color: rgb(112, 112, 112);
+}
 
 
