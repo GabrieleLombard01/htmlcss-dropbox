@@ -107,6 +107,7 @@ p{
     height: 390px;
     width: 820px;
     background-color: rgb(112, 112, 112);
+    position: relative;
 }
 .main_button{
     margin-left: 2px;
@@ -122,6 +123,8 @@ p{
 }
 #jumbo_size{
     max-width: 810px;
+    position: absolute;
+    left: -32px;
 }
 
 
