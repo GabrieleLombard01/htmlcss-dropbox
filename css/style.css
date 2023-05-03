@@ -1,3 +1,19 @@
+/*CSS colors
+General colors:
+ lightblue_buttons: #0061ff
+ lightblue_background_conteiner: #b4d0e7
+ footer_background: #000000
+Cards color:
+ card green: #a2d39b
+ card purple: #61082b
+ card large: #f5f5f5
+ card red: #d5001f
+ card ghostblue: #b4d0e7
+ card lightblue: #0093ce
+ card orange: #0093ce
+ card blue: #0d2481
+ card yellow: #ffd830
+*/
 /*CSS reset*/
 *{
     margin: 0;
