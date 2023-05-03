@@ -30,6 +30,7 @@ header{
     min-height: 80px;
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
     /*to be removed*/
     background-color: rgb(209, 234, 255);
 }
@@ -47,8 +48,19 @@ a{
     align-items: center;
     gap: 40px;
 }
+.head_right{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+}
 .head_link{
     padding: 5px;
+}
+.head_button{
+    color: white;
+    background-color: #0061ff;
+    padding: 8px 15px 8px 15px; 
+    text-decoration: solid;
 }
 
 
