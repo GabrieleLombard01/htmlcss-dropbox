@@ -26,6 +26,30 @@ body{
 /*Custom properties*/
 
 /*Generics*/
-
+header{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /*to be removed*/
+    background-color: rgb(209, 234, 255);
+}
+a{
+    background-color: rgb(203, 203, 203);
+}
 /*Utilties*/
+
+/*Navigation bar*/
+.head_section{
+    background-color: rgb(251, 251, 182);
+    height: 80px;
+    min-width: calc(100vw / 3);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.head_link{
+    padding: 5px;
+}
+
+
 
