@@ -34,16 +34,15 @@ header{
     font-size: 16px;
     position: fixed;
     top: 0;
-    /*to be removed*/
-    background-color: rgb(209, 234, 255);
+    background-color: white;
+    z-index: 1;
 }
 a{
-    background-color: rgb(203, 203, 203);
+    text-decoration: none;
 }
 p{
     font-size: 18px;
     padding: 20px 20px 35px 2px;
-    
 }
 /*Utilties*/
 
@@ -58,11 +57,8 @@ p{
     justify-content: center;
     align-items: center;
 }
-
-
 /*Navigation bar*/
 .head_section{
-    background-color: rgb(251, 251, 182);
     height: 80px;
     min-width: calc(100vw / 3);
     display: flex;
@@ -75,6 +71,7 @@ p{
     padding-right: 30px;
 }
 .head_link{
+    color: #414141;
     padding: 5px;
 }
 .head_button{
@@ -88,10 +85,8 @@ p{
     max-width: 1250px;
     min-height: 350px;
     margin: 0 auto;
-    background-color: rgb(217, 217, 217);
     font-size: 45px;
     font-weight: 700;
-    
 }
 #subtitle{
     display: flex;
@@ -101,18 +96,15 @@ p{
 .main_section{
     height: 390px;
     width: 430px;
-    background-color: rgb(224, 224, 224);
 }
 .main_figure{
     height: 390px;
     width: 820px;
-    background-color: rgb(112, 112, 112);
     position: relative;
 }
 .main_button{
     margin-left: 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px;
 }
 #cancel{
     padding-top: 40px;
@@ -125,6 +117,7 @@ p{
     max-width: 810px;
     position: absolute;
     left: -32px;
+    top: 20px;
 }
 
 
