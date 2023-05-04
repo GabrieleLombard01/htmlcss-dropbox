@@ -54,6 +54,9 @@ a{
 h2{
     font-size: 41px;
 }
+h3{
+    font-size: 25px;
+}
 p{
     font-size: 18px;
     padding: 20px 20px 35px 2px;
@@ -80,10 +83,16 @@ p{
 .section_conteined{
     background-color: rgb(249, 213, 213);
     margin: 0 auto;
+    margin-top: 50px;
     width: 1000px;
-    height: 500px;
+    height: 90vh;
     display: flex;
+    align-content: flex-start;
     gap: 30px;
+}
+.align_text_col{
+    margin: 25px;
+    background-color: aliceblue;
 }
 /*Navigation bar*/
 .head_section{
@@ -160,7 +169,7 @@ p{
     display: flex;
 }
 .check_section{
-    border: solid #d0d0d3 2px;
+    border: solid  2px;
     border-radius: 50%;
     height: 20px;
     width: 20px;
@@ -174,8 +183,15 @@ p{
     display: inline-block;
 }
 .section_column{
-    width: 300px;
-    height: 100px;
-    background-color: red;
+    width: 290px;
+    background-color: white;
+    border: solid #d0d0d3 1px;
+}
+.table_title{
+    background-color: white;
+    height: 40px;
+    border-bottom: solid #d0d0d3 1px;
+    text-align: center;
+    padding-top: 8px;
 }
 
