@@ -93,7 +93,6 @@ p{
 .align_text_col{
     margin: 25px;
     background-color: aliceblue;
-    line-height: 40px;
 }
 /*Navigation bar*/
 .head_section{
@@ -195,9 +194,28 @@ p{
     text-align: center;
     padding-top: 8px;
 }
+#h3col{
+    padding-bottom: 20px;
+}
 .month_col{
-    margin-top: -10px;
+    margin-top: 10px;
     color: #5f5f5f;
 }
+.content_col{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+.text_align_col{
+    display: inline;
+    min-height: 100%;
+    display: flex;
+    gap: 2px;
+    align-items: first baseline;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
 
 
