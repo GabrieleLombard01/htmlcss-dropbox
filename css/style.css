@@ -93,6 +93,7 @@ p{
 .align_text_col{
     margin: 25px;
     background-color: aliceblue;
+    line-height: 40px;
 }
 /*Navigation bar*/
 .head_section{
@@ -194,4 +195,5 @@ p{
     text-align: center;
     padding-top: 8px;
 }
+
 
