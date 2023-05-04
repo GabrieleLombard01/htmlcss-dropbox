@@ -195,5 +195,9 @@ p{
     text-align: center;
     padding-top: 8px;
 }
+.month_col{
+    margin-top: -10px;
+    color: #5f5f5f;
+}
 
 
