@@ -59,7 +59,7 @@ p{
     padding: 20px 20px 35px 2px;
 }
 /*Utilties*/
-.first_conteined{
+.first_conteiner{
     background-color: #b4d0e7;
     min-height: 740px;
     margin-top: 80px;
@@ -76,6 +76,14 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.section_conteined{
+    background-color: rgb(249, 213, 213);
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    gap: 30px;
 }
 /*Navigation bar*/
 .head_section{
@@ -164,6 +172,10 @@ p{
     padding-left: 5px;
     padding-top: 2px;
     display: inline-block;
-
+}
+.section_column{
+    width: 300px;
+    height: 100px;
+    background-color: red;
 }
 
