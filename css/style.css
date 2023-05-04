@@ -87,6 +87,9 @@ p{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 .text_center{
     display: flex;
@@ -110,6 +113,10 @@ p{
     height: 160px;
     background-color: #f6f8c8;
     display: flex;
+}
+.longcard{
+    background-color: #f6f8c8;
+    width: 30%;
 }
 /*Navigation bar*/
 .head_section{
