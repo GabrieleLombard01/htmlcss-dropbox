@@ -87,11 +87,10 @@ p{
     height: 95vh;
     display: flex;
     align-content: flex-start;
-    gap: 50px;
+    gap: 64px;
 }
 .align_conteined{
     margin: 25px;
-    background-color: aliceblue;
 }
 /*Navigation bar*/
 .head_section{
@@ -191,7 +190,7 @@ p{
     height: 40px;
     border-bottom: solid #d0d0d3 1px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 #h3col{
     padding-bottom: 20px;
@@ -236,6 +235,13 @@ p{
     height: 1px;
     width: 70px;
     background-color: #d0d0d3;
+}
+.row_section{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    border: solid #d0d0d3 1px;
+
 }
 
 
