@@ -216,6 +216,22 @@ p{
     padding-bottom: 20px;
     font-size: 16px;
 }
+.button_col{
+    height: 220px;
+    width: 238px;
+    position: relative;
+}
+.but_col{
+    width: 95%;
+    position: absolute;
+    top: 20px;
+    left: 4px;
+}
+.shop_col{
+    padding-left: 5px;
+    display: block;
+    padding-top: 90px;
+}
 
 
 
