@@ -111,6 +111,10 @@ p{
     align-content: flex-start;
     gap: 64px;
 }
+.d-business_conteiner{
+    height: calc(110vh / 3);
+    background-color: #b4d0e7;
+}
 .align_conteined{
     margin: 25px;
 }
