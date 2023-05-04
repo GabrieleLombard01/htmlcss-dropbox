@@ -92,6 +92,12 @@ p{
 .align_conteined{
     margin: 25px;
 }
+.raw_conteiner{
+    width: 100%;
+    height: 160px;
+    background-color: #f6f8c8;
+    display: flex;
+}
 /*Navigation bar*/
 .head_section{
     height: 80px;
@@ -242,6 +248,16 @@ p{
     height: 200px;
     border: solid #d0d0d3 1px;
 
+}
+.raw_conteined_left{
+    width: 65%;
+    height: 160px;
+    background-color: #f6f9a2;
+}
+.raw_conteined_right{
+    width: 35%;
+    height: 160px;
+    background-color: #f3f94d;
 }
 
 
