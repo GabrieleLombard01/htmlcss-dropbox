@@ -88,7 +88,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 45px;
 }
 .cards_conteiner{
     width: 100%;
@@ -303,6 +303,7 @@ p{
 /*Section 3*/
 .align_fth{
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 /*Section 4*/
 .bottom_algn{
