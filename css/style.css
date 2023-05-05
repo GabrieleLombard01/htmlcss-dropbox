@@ -82,7 +82,7 @@ summary{
 footer{
     background-color: black;
     color: white;
-    margin-top: 150px;
+    margin-top: 120px;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -391,5 +391,11 @@ footer{
     margin: 0 auto;
     width: calc(100% - 40%);
     height: calc(100% - 15%);
+    display: flex;
+}
+.foot_col{
+    width: calc(100% / 5);
+    border: dashed white 1px;
+    border-style: inset;
 }
 
