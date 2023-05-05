@@ -67,7 +67,7 @@ h3{
     font-size: 25px;
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px 20px 35px 2px;
 }
 details{
@@ -143,7 +143,6 @@ footer{
 .raw_conteiner{
     width: 100%;
     height: 160px;
-    background-color: #f6f8c8;
     display: flex;
 }
 .longcard{
@@ -297,19 +296,25 @@ footer{
 .row_section{
     margin-top: 50px;
     width: 100%;
-    height: 200px;
+    height: 235px;
     border: solid #d0d0d3 1px;
     
 }
 .raw_conteined_left{
-    width: 65%;
-    height: 160px;
-    background-color: #f6f9a2;
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 35px;
+    width: 70%;
+    height: 190px;
 }
 .raw_conteined_right{
-    width: 35%;
-    height: 160px;
-    background-color: #f3f94d;
+    width: 30%;
+    height: 190px;
+}
+.team_but{
+    position: relative;
+    top: 40px;
+    left: 10px;
 }
 /*Section 2*/
 .left_thr{
