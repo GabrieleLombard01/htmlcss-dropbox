@@ -79,6 +79,11 @@ summary{
     font-weight: bold;
     font-size: 18px;
 }
+footer{
+    background-color: black;
+    margin-top: 150px;
+    height: 80vh;
+}
 /*Utilties*/
 .first_conteiner{
     background-color: #b4d0e7;
@@ -196,7 +201,7 @@ summary{
 }
 .fa-arrow-down{
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #jumbo_size{
     max-width: 810px;
