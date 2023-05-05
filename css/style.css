@@ -105,16 +105,15 @@ footer{
     width: 100%;
     height: 50vh;
     display: flex;
-    gap: 50px;
+    gap: 52px;
 }
 .fourth_conteiner{
-    background-color: #cacaca;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 45px;
+    gap: 48px;
 }
 .cards_conteiner{
     width: 100%;
@@ -146,7 +145,6 @@ footer{
     display: flex;
 }
 .longcard{
-    background-color: #f6f8c8;
     width: 30%;
 }
 /*Navigation bar*/
@@ -339,6 +337,9 @@ footer{
 .align_fth{
     margin-top: 150px;
     margin-bottom: 50px;
+}
+.img_size_lg{
+    max-width: 300px;
 }
 /*Section 4*/
 .bottom_algn{
