@@ -41,6 +41,9 @@ body{
 .card:hover{
     border: solid rgba(255, 255, 255, 0.5) 15px ;
 }
+.foot_link:hover{
+    text-decoration: underline;
+}
 details {
     border: 1px solid gray;
     border-radius: 0.2rem;
@@ -91,6 +94,11 @@ footer{
     height: 80vh;
     display: flex;
     align-items: center;
+}
+ul{
+    list-style: none;
+    margin-top: 25px;
+    line-height: 40px;
 }
 /*Utilties*/
 .first_conteiner{
@@ -444,7 +452,6 @@ footer{
 }
 /*Footer*/
 .foot_conteiner{
-    background-color: rgb(55, 55, 55);
     margin: 0 auto;
     width: calc(100% - 40%);
     height: calc(100% - 15%);
@@ -452,7 +459,25 @@ footer{
 }
 .foot_col{
     width: calc(100% / 5);
-    border: dashed white 1px;
-    border-style: inset;
+}
+.foot_link{
+    color: white;
+}
+#foot_hr{
+    margin-top: 100px;
+    background-color: white;
+    height: 1px;
+    width: 65%;
+}
+.fa-eart-europe{
+}
+.lang_conteiner{
+    margin-top: 50px;
+    height: 40px;
+    width: 65%;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    gap: 5px;
 }
 
