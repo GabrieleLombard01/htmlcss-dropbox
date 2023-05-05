@@ -404,6 +404,30 @@ footer{
     height: calc(110vh / 3);
     background-color: #b4d0e7;
 }
+.d_business_conteined{
+    margin: 0 auto;
+    height: calc(110vh / 3);
+    width: 1200px;
+    display: flex;
+    gap: 80px;
+}
+.bus_cont{
+    height: calc(110vh / 3);
+    width: 600px;
+}
+.bus_but{
+    position: relative;
+    top: 140px;
+    left: 130px;
+    color: black;
+    background-color: white;
+}
+#bus_h2{
+    color: #61082b;
+    padding-top: 110px;
+    position: relative;
+    left: 100px;
+}
 /*Section 7*/
 .det_conteiner{
     margin: 0 auto;
