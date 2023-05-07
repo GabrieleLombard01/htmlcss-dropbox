@@ -47,6 +47,9 @@ body{
 .bus_but:hover{
     background-color: #e2e2e2;
 }
+.big_des:hover{
+    border: solid rgba(0, 0, 0, 0.5) 10px ;
+}
 /*Generics*/
 header{
     min-height: 80px;
